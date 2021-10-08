@@ -1,0 +1,40 @@
+.infoMainBox { 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 80px;
+
+  &-dsc {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &-image {
+    width: 30%;
+  }
+
+  &-image img {
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  &-dsc h1 {
+    font-family: 'Montserrat','Open Sans', sans-serif;
+    font-size: 28px;
+    letter-spacing: 2px;
+  }
+
+  &-dsc p {
+    margin-top: 25px;
+    font-family: 'Open-Sans', sans-serif;
+    color: #777;
+    line-height: 25px;
+    font-size: 14px;
+  }
+}
+
+.keyworkColor {
+  color: #F77737;
+}

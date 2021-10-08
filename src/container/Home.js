@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Header, ProductDetail } from '../components';
+import { Header, ProductDetail, Footer } from '../components';
 
 import '../styles/container/Home.css';
 
@@ -20,6 +20,7 @@ const Home = () => {
       <main className="homebox">
         <ProductDetail changeProductToCard={changeProductToCard} productInCar={productInCar} />
       </main>
+      <Footer />
     </>
   );
 }

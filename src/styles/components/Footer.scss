@@ -1,0 +1,70 @@
+.footerBox {
+  background-color: #111;
+  padding: 40px 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #FFF;
+
+  &-content {
+    width: 45%;
+  }
+}
+
+
+.titlePage {
+  font-size: 28px;
+  font-family: 'Montserrat','Open Sans', sans-serif;
+}
+
+.dscPage {
+  font-weight: 400;
+  font-family: 'Open-Sans', sans-serif;
+  color: #777;
+  line-height: 25px;
+  margin: 30px 0px;
+  font-size: 16px;
+}
+
+.copy {
+  font-weight: 600;
+  font-family: 'Open-Sans', sans-serif;
+  color: #777;
+  line-height: 25px;
+}
+
+.navBoxFooter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #FFF;
+  font-weight: 500;
+  justify-content: flex-end;
+
+  span {
+    margin: 0 15px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: 0.5s;
+    letter-spacing: 2px;
+    font-family: 'Montserrat','Open Sans', sans-serif;
+    
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+}
+
+.socialBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 40px;
+}
+
+.socialIcon {
+  width: 25px;
+  height: auto;
+  cursor: pointer;
+  margin: 0 10px;
+}

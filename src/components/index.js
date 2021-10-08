@@ -1,3 +1,4 @@
 import Header from "./Header";
+import ProductDetail from "./ProductDetail";
 
-export { Header };
+export { Header, ProductDetail };

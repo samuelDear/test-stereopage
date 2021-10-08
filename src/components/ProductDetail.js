@@ -45,6 +45,48 @@ const ProductDetail = ({ changeProductToCard, productInCar }) => {
           </div>
         </div>
       </div>
+      <div className="productDetails">
+        <div className="productDetails-features">
+          <h1>FEATURES</h1>
+          <ul className="listStyle">
+            <li>
+              Powerful noise cancelling headphones: 11 levels of active noise cancelling let you enjoy music, podcasts, videos & calls without distractions
+            </li>
+            <li>
+              Astonishing sound: Crisp, clear details. Deep, full bass. These wireless headphones produce exciting, lifelike sound that’s full and balanced at every volume level
+            </li>
+            <li>
+              Unrivaled voice pickup: A revolutionary microphone system adapts to noisy and windy environments so your voice always sounds crystal clear on calls
+            </li>
+            <li>
+              Up to 20 hours of non-stop music: Get up to 20 hours of wireless battery life on a single charge
+            </li>
+          </ul>
+          <p className="productDetails-dsc">
+            Turn any space into the perfect place to listen to music, make phone calls, or get work done. Bose Noise Cancelling Headphones 700 reinvent what true wireless headphones are — and redefine what they can be. Bose headphones 700 feature an unrivaled microphone system that picks up and isolates your voice while cancelling the noise around you. You’ll hear and be heard like never before. These headphones are also optimized for Amazon Alexa and the Google Assistant.
+          </p>
+        </div>
+        <div className="productDetails-content">
+          <h1>IN THE BOX</h1>
+          <ul className="listContent">
+            <li>
+              <span className="quantityInBox">1x</span> Headphone unit
+            </li>
+            <li>
+              <span className="quantityInBox">2x</span> Replacement Earcups
+            </li>
+            <li>
+              <span className="quantityInBox">1x</span> User Manual
+            </li>
+            <li>
+              <span className="quantityInBox">2x</span> 3.5mm 5m Audio Cable
+            </li>
+            <li>
+              <span className="quantityInBox">1x</span> Travel Bag
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   );
 }

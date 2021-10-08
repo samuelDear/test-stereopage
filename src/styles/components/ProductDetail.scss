@@ -103,3 +103,66 @@
      transform: scale(1.0);
    }
 }
+
+.productDetails {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  &-features {
+    width: 65%;
+  }
+
+  &-content {
+    width: 28%;
+  }
+
+  &-content h1, &-feature h1 {
+    text-transform: uppercase;
+    font-family: 'Montserrat','Open Sans', sans-serif;
+  }
+
+  &-content {
+    text-align: left;
+  }
+
+  &-dsc {
+    font-weight: 400;
+    font-family: 'Open-Sans', sans-serif;
+    color: #777;
+    line-height: 25px;
+    margin-top: 20px;
+  }
+}
+
+.listStyle {
+  padding-left: 10px;
+  margin-top: 30px;
+
+  & li {
+    font-weight: 400;
+    font-family: 'Open-Sans', sans-serif;
+    color: #777;
+    line-height: 25px;
+  }
+}
+
+.listContent {
+  list-style: none;
+  margin-top: 20px;
+  padding: 0;
+
+  & li {
+    color: #777;
+    line-height: 30px;
+    font-family: 'Open-Sans', sans-serif;
+    font-size: 14px;
+  }
+}
+
+.quantityInBox {
+  color: #F77737;
+  font-weight: 600;
+  margin-right: 10px;
+}

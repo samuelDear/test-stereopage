@@ -1,5 +1,11 @@
 import { useState } from 'react';
-import { Header, ProductDetail, Footer, InfoSection } from 'components';
+import {
+  Header,
+  ProductDetail,
+  Footer,
+  InfoSection,
+  RelatedImages,
+} from 'components';
 
 import '../styles/container/Home.css';
 
@@ -22,6 +28,7 @@ const Home = () => {
           changeProductToCard={changeProductToCard}
           productInCar={productInCar}
         />
+        <RelatedImages />
         <InfoSection />
       </main>
       <Footer />

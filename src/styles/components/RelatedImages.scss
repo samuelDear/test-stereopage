@@ -1,0 +1,21 @@
+.relatedImagesBox {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.relatedImage {
+  flex-grow: 0;
+  max-width: 40%;
+  flex-basis: 40%;
+  margin: 25px;
+  
+  & img {
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+  }
+}

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { SHOPPING_CART_IC, LOGO_STORE } from '../images';
 import Sidebar from './Sidebar';
 import '../styles/components/Header.scss';
@@ -6,11 +6,26 @@ import '../styles/components/Header.scss';
 const Header = ({ productInCart }) => {
   const [showNavBar, setShowNavBar] = useState(false);
 
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth >= 750) {
+        setShowNavBar(false);
+      }
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   return (
     <header className="headerBox">
-      {showNavBar ? (
-        <Sidebar closeSidebar={() => setShowNavBar(false)} />
-      ) : null}
+      <Sidebar
+        closeSidebar={() => setShowNavBar(false)}
+        statusSidebar={showNavBar}
+      />
       <div
         className="hamburguerBox"
         onClick={() => setShowNavBar((prevState) => !prevState)}

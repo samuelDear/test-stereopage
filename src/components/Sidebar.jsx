@@ -1,8 +1,8 @@
 import '../styles/components/Sidebar.scss';
 
-const Sidebar = ({ closeSidebar }) => {
+const Sidebar = ({ statusSidebar, closeSidebar }) => {
   return (
-    <div className="sidenav">
+    <div className="sidenav" style={{ width: statusSidebar ? 200 : 0 }}>
       <span className="sidenav-closeBtn" onClick={closeSidebar}>
         X
       </span>

@@ -38,3 +38,74 @@
 .keyworkColor {
   color: #F77737;
 }
+
+@media (max-width: 1050px) {
+  .infoMainBox { 
+    margin-top: 90px;
+  }
+}
+
+@media (max-width: 900px) {
+  .infoMainBox { 
+    flex-direction: column-reverse;
+    align-items: center;
+
+    &-dsc {
+      width: 95%;
+      margin-bottom: 20px;
+    }
+
+    &-image {
+      width: 50%;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .infoMainBox { 
+    &-image {
+      width: 60%;
+    }
+
+    &-dsc h1 {
+      font-size: 26px;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .infoMainBox { 
+    &-image {
+      width: 65%;
+    }
+
+    &-dsc h1 {
+      font-size: 25px;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .infoMainBox { 
+    &-image {
+      width: 75%;
+    }
+
+    &-dsc h1 {
+      font-size: 24px;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .infoMainBox { 
+    &-image {
+      width: 80%;
+    }
+
+    &-dsc h1 {
+      font-size: 22px;
+    }
+  }
+}

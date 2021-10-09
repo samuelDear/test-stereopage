@@ -6,7 +6,7 @@ const ProductDetail = ({ changeProductToCard, productInCar }) => {
   const [qtyProduct, setQtyProduct] = useState(1);
 
   const addProduct = () => {
-    setQtyProduct((prevState) => prevState + 1);
+    setQtyProduct((prevState) => (prevState >= 50 ? 50 : prevState + 1));
   };
 
   const lessProduct = () => {

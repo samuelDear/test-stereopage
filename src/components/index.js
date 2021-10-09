@@ -4,6 +4,7 @@ import Footer from './Footer';
 import InfoSection from './InfoSection';
 import RelatedImages from './RelatedImages';
 import RelatedProducts from './RelatedProducts';
+import Sidebar from './Sidebar';
 
 export {
   Header,
@@ -12,4 +13,5 @@ export {
   InfoSection,
   RelatedImages,
   RelatedProducts,
+  Sidebar,
 };

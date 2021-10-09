@@ -1,0 +1,47 @@
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding: 15px;
+  padding-top: 40px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  color: #FFF;
+
+  &-closeBtn {
+    text-align: right;
+    user-select: none;
+    font-size: 18px;
+    transition: 0.5s;
+    cursor: pointer;
+     
+    &:hover {
+      font-weight: 600;
+    }
+  }
+}
+
+.sidenavBox {
+  display: flex;
+  flex-direction: column;
+
+  & span {
+    font-weight: 500;
+    user-select: none;
+    cursor: pointer;
+    margin: 15px 0px;
+    transition: 0.5s;
+    color: #CCC;
+
+    &:hover {
+      color: #FFF;
+    }
+  }
+}

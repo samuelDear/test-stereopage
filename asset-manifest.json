@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/test-stereopage/static/css/main.e346727e.chunk.css",
+    "main.css": "/test-stereopage/static/css/main.3f599d6d.chunk.css",
     "main.js": "/test-stereopage/static/js/main.c8ac5510.chunk.js",
     "main.js.map": "/test-stereopage/static/js/main.c8ac5510.chunk.js.map",
     "runtime-main.js": "/test-stereopage/static/js/runtime-main.8d0540e1.js",
@@ -10,7 +10,7 @@
     "static/js/3.f5e8f2fb.chunk.js": "/test-stereopage/static/js/3.f5e8f2fb.chunk.js",
     "static/js/3.f5e8f2fb.chunk.js.map": "/test-stereopage/static/js/3.f5e8f2fb.chunk.js.map",
     "index.html": "/test-stereopage/index.html",
-    "static/css/main.e346727e.chunk.css.map": "/test-stereopage/static/css/main.e346727e.chunk.css.map",
+    "static/css/main.3f599d6d.chunk.css.map": "/test-stereopage/static/css/main.3f599d6d.chunk.css.map",
     "static/js/2.b057aa18.chunk.js.LICENSE.txt": "/test-stereopage/static/js/2.b057aa18.chunk.js.LICENSE.txt",
     "static/media/astro-headphones.3084eee3.png": "/test-stereopage/static/media/astro-headphones.3084eee3.png",
     "static/media/beats-headphones.9b3c9e6f.png": "/test-stereopage/static/media/beats-headphones.9b3c9e6f.png",
@@ -32,7 +32,7 @@
   "entrypoints": [
     "static/js/runtime-main.8d0540e1.js",
     "static/js/2.b057aa18.chunk.js",
-    "static/css/main.e346727e.chunk.css",
+    "static/css/main.3f599d6d.chunk.css",
     "static/js/main.c8ac5510.chunk.js"
   ]
 }

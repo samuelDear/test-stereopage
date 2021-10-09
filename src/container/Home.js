@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Header, ProductDetail, Footer, InfoSection } from '../components';
+import { Header, ProductDetail, Footer, InfoSection } from 'components';
 
 import '../styles/container/Home.css';
 

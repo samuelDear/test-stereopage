@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/test-stereopage/static/css/main.e346727e.chunk.css",
+    "main.js": "/test-stereopage/static/js/main.c8ac5510.chunk.js",
+    "main.js.map": "/test-stereopage/static/js/main.c8ac5510.chunk.js.map",
+    "runtime-main.js": "/test-stereopage/static/js/runtime-main.8d0540e1.js",
+    "runtime-main.js.map": "/test-stereopage/static/js/runtime-main.8d0540e1.js.map",
+    "static/js/2.b057aa18.chunk.js": "/test-stereopage/static/js/2.b057aa18.chunk.js",
+    "static/js/2.b057aa18.chunk.js.map": "/test-stereopage/static/js/2.b057aa18.chunk.js.map",
+    "static/js/3.f5e8f2fb.chunk.js": "/test-stereopage/static/js/3.f5e8f2fb.chunk.js",
+    "static/js/3.f5e8f2fb.chunk.js.map": "/test-stereopage/static/js/3.f5e8f2fb.chunk.js.map",
+    "index.html": "/test-stereopage/index.html",
+    "static/css/main.e346727e.chunk.css.map": "/test-stereopage/static/css/main.e346727e.chunk.css.map",
+    "static/js/2.b057aa18.chunk.js.LICENSE.txt": "/test-stereopage/static/js/2.b057aa18.chunk.js.LICENSE.txt",
+    "static/media/astro-headphones.3084eee3.png": "/test-stereopage/static/media/astro-headphones.3084eee3.png",
+    "static/media/beats-headphones.9b3c9e6f.png": "/test-stereopage/static/media/beats-headphones.9b3c9e6f.png",
+    "static/media/brand-photo.ca00e39a.jpg": "/test-stereopage/static/media/brand-photo.ca00e39a.jpg",
+    "static/media/earphones-img.3bb8c9d1.png": "/test-stereopage/static/media/earphones-img.3bb8c9d1.png",
+    "static/media/headphone-bose.fa07f7ae.png": "/test-stereopage/static/media/headphone-bose.fa07f7ae.png",
+    "static/media/headphones-img.a4f998f1.png": "/test-stereopage/static/media/headphones-img.a4f998f1.png",
+    "static/media/instagram-white-ic.39ea3cda.svg": "/test-stereopage/static/media/instagram-white-ic.39ea3cda.svg",
+    "static/media/logo-store.2b07ef13.svg": "/test-stereopage/static/media/logo-store.2b07ef13.svg",
+    "static/media/product-feature-img.209a6128.jpg": "/test-stereopage/static/media/product-feature-img.209a6128.jpg",
+    "static/media/product-feature-img2.4567ff42.jpg": "/test-stereopage/static/media/product-feature-img2.4567ff42.jpg",
+    "static/media/product-feature-img3.85a5c465.jpg": "/test-stereopage/static/media/product-feature-img3.85a5c465.jpg",
+    "static/media/product-feature-img4.8301747d.jpg": "/test-stereopage/static/media/product-feature-img4.8301747d.jpg",
+    "static/media/razer-headphones.0cea993c.png": "/test-stereopage/static/media/razer-headphones.0cea993c.png",
+    "static/media/shopping-cart-ic.dcdb5de0.svg": "/test-stereopage/static/media/shopping-cart-ic.dcdb5de0.svg",
+    "static/media/speaker-img.a5d8d34c.png": "/test-stereopage/static/media/speaker-img.a5d8d34c.png",
+    "static/media/twitter-white-ic.8097ca9d.svg": "/test-stereopage/static/media/twitter-white-ic.8097ca9d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8d0540e1.js",
+    "static/js/2.b057aa18.chunk.js",
+    "static/css/main.e346727e.chunk.css",
+    "static/js/main.c8ac5510.chunk.js"
+  ]
+}

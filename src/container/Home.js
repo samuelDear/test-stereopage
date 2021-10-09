@@ -5,6 +5,7 @@ import {
   Footer,
   InfoSection,
   RelatedImages,
+  RelatedProducts,
 } from 'components';
 
 import '../styles/container/Home.css';
@@ -29,6 +30,7 @@ const Home = () => {
           productInCar={productInCar}
         />
         <RelatedImages />
+        <RelatedProducts />
         <InfoSection />
       </main>
       <Footer />

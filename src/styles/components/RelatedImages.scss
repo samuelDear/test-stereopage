@@ -19,3 +19,39 @@
     height: auto;
   }
 }
+
+@media (max-width: 1000px) {
+  .relatedImage {
+    max-width: 40%;
+    flex-basis: 40%;
+  }
+}
+
+@media (max-width: 900px) {
+  .relatedImage {
+    margin: 10px;
+    max-width: 45%;
+    flex-basis: 45%;
+  }
+}
+
+@media (max-width: 700px) {
+  .relatedImage {
+    margin: 15px;
+    max-width: 90%;
+    flex-basis: 90%;
+  }
+}
+
+@media (max-width: 600px) {
+  .relatedImage {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .relatedImage {
+    margin: 15px 10px;
+  }
+}

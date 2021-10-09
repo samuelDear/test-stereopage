@@ -4,13 +4,13 @@ import { Header, ProductDetail, Footer, InfoSection } from '../components';
 import '../styles/container/Home.css';
 
 const Home = () => {
-  const [state, setState] = useState({ productInCar: false});
+  const [state, setState] = useState({ productInCar: false });
   const { productInCar } = state;
 
-  const changeProductToCard = value => {
-    setState(prevState => ({
+  const changeProductToCard = (value) => {
+    setState((prevState) => ({
       ...prevState,
-      productInCar: value
+      productInCar: value,
     }));
   };
 
@@ -18,12 +18,15 @@ const Home = () => {
     <>
       <Header productInCart={productInCar} />
       <main className="homebox">
-        <ProductDetail changeProductToCard={changeProductToCard} productInCar={productInCar} />
+        <ProductDetail
+          changeProductToCard={changeProductToCard}
+          productInCar={productInCar}
+        />
         <InfoSection />
       </main>
       <Footer />
     </>
   );
-}
+};
 
 export default Home;

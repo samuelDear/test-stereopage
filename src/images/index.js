@@ -8,4 +8,12 @@ import TWITTER_WHITE_IC from './icons/twitter-white-ic.svg';
 import FACEBOOK_WHITE_IC from './icons/facebook-white-ic.png';
 import INSTAGRAM_WHITE_IC from './icons/instagram-white-ic.svg';
 
-export { SHOPPING_CART_IC, LOGO_STORE, HEADPHONES_BOSE, TWITTER_WHITE_IC, FACEBOOK_WHITE_IC, INSTAGRAM_WHITE_IC, BRAND_IMAGE };
+export {
+  SHOPPING_CART_IC,
+  LOGO_STORE,
+  HEADPHONES_BOSE,
+  TWITTER_WHITE_IC,
+  FACEBOOK_WHITE_IC,
+  INSTAGRAM_WHITE_IC,
+  BRAND_IMAGE,
+};
